@@ -4,5 +4,9 @@ Rails.application.routes.draw do
       :authorized_applications
   end
   devise_for :users
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace :api do
+    namespace :v1, defaults: { format: :json } do
+      resources :users, only: [:index, :create, :update, :show, :destroy]
+    end
+  end
 end
