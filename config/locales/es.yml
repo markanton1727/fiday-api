@@ -1,0 +1,5 @@
+es:
+  doorkeeper:
+    errors:
+      messages:
+        invalid_grant: 'Usuario o password invalido'

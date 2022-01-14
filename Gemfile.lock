@@ -83,6 +83,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    discard (1.2.1)
+      activerecord (>= 4.2, < 8)
     doorkeeper (5.5.2)
       railties (>= 5)
     erubi (1.10.0)
@@ -228,6 +230,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise
+  discard (~> 1.2)
   doorkeeper
   jbuilder (~> 2.7)
   listen (~> 3.2)
