@@ -7,8 +7,8 @@ class User < ApplicationRecord
   default_scope -> { kept }
 
   class << self
-    def authenticate(email, password)
-      user = User.find_for_authentication(email: email)
+    def authenticate(username, password)
+      user = User.find_for_authentication(email: username)
       user.try(:valid_password?, password) ? user : nil
     end
   end
