@@ -9,7 +9,7 @@ es:
       models:
         users:
           attributes:
-            mobile_phone_invalid: 'Numero de telefono invalido'
+            mobile_phone_invalid: 'Número de teléfono inválido'
   date:
     abbr_day_names:
     - dom
@@ -223,4 +223,4 @@ es:
   doorkeeper:
     errors:
       messages:
-        invalid_grant: 'Usuario o password invalido'
+        invalid_grant: 'Usuario o password inválido'
